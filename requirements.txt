@@ -3,4 +3,5 @@ torch==2.3.0
 requests==2.32.3
 beautifulsoup4==4.12.3
 transformers==4.40.0
-duckduckgo-search==6.0.6
+duckduckgo-search==6.1.0  # Changed from 6.0.6
+gunicorn==23.0.0  # Include this for the Start Command
